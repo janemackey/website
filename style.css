@@ -1,0 +1,185 @@
+
+/* General styles */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #B86914; /* Background for page 1 */
+  color: #090909;
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+}
+
+h1 {
+  font-family: Impact, Arial Black, sans-serif;
+  font-size: 60px;
+  margin: 0 0 20px;
+  color: #090909;
+}
+
+h2 {
+  font-size: 36px;
+  margin: 10px 0;
+}
+
+p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+
+/* Image styling */
+.phone-image {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+}
+
+/* Coming Soon Section */
+.coming-soon {
+  background-color: #B86914;
+  color: #090909;
+  padding: 50px 0;
+}
+
+.coming-soon-text {
+  font-size: 60px;
+  font-family: 'Arial Black', sans-serif; /* Fallback for Horizon */
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.coming-soon-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.left-side {
+  flex: 2; /* 2/5 of the width */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.right-side {
+  flex: 3; /* 3/5 of the width */
+  text-align: center;
+}
+
+.app-image {
+  /* max-width: 100%; */
+  max-width: 250px;
+  height: auto;
+  border-radius: 36px;
+  margin-bottom: 0px;
+}
+
+.logo {
+  width: 100px; /* Adjust size if needed */
+  margin-bottom: 20px;
+}
+
+.sugar-title {
+  font-family: 'Drury Lane NF', serif;
+  font-size: 36px;
+  margin: 8px 0;
+  color: #fefdfc;
+}
+
+.sugar-subtitle {
+  font-family: 'Lora', serif;
+  font-size: 55px;
+  margin: 40px 0;
+  color: #fefdfc;
+}
+
+@font-face {
+  font-family: 'Drury Lane NF';
+  src: url('DruryLaneNF.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Why Waste A Craving section */
+.why-craving {
+  text-align: center;
+  margin: 50px 0;
+  background-color: #fffaf1;
+  color: #eb6200;
+  padding: 50px 0;
+}
+.why-craving h2 {
+  font-size: 30px;
+  font-family: 'Lora', serif; 
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 40px;
+  color: #eb6200;
+  
+}
+.features {
+    display: flex;
+    justify-content: space-evenly;
+    Align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin: 0 20px;
+}
+.features p{
+  font-size: 21px;
+  font-family: 'Lora', serif; 
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.feature-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    width: 310px;
+    border: 2px solid #eb6200; /* Colored border */
+    border-radius: 60px; /* Rounded corners */
+    background-color: #FFFaf1; /* Optional background color */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.feature-box img {
+    width: 250px;
+    height: auto;
+    border-radius: 36px;
+    margin: 10px 0;
+}
+.feature-box p {
+    font-size: 21px;
+    font-family: Lora, serif;
+    color: #eb6200;
+    margin: 10px 0;
+}
+.footer {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.footer h2 {
+  font-family: 'Drury Lane NF', serif;
+  font-size: 1.5rem;
+  margin: 24px 24px 20px;
+}
+
+.footer p {
+  font-family: 'Lora', serif; 
+  font-size: 1rem;
+  margin: 8px 24px 0;
+  margin-bottom: 10px;
+}
+
