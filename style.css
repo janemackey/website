@@ -61,14 +61,14 @@ p {
 	text-align: center;
 }
 .left-side {
-  flex: 2; /* 2/5 of the width */
+  flex: 3; /* 3/5 of the width */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
 .right-side {
-  flex: 3; /* 3/5 of the width */
+  flex: 2; /* 2/5 of the width */
   text-align: center;
 }
 
