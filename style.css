@@ -43,7 +43,11 @@ p {
   color: #090909;
   padding: 50px 0;
 }
-
+.coming-soon-container {
+  max-width: 1200px; /* Limit the width of the section */
+  margin: 0 auto; /* Center the container horizontally */
+  padding: 0 20px; /* Add padding on the sides for smaller screens */
+}
 .coming-soon-text {
   font-size: 60px;
   font-family: 'Arial Black', sans-serif; /* Fallback for Horizon */
@@ -55,7 +59,7 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 20px;
+  Gap: 20px;
 }
 
 .left-side {
@@ -83,14 +87,14 @@ p {
   margin-bottom: 20px;
 }
 
-.sugar-title {
+.right-side h2 {
   font-family: 'Drury Lane NF', serif;
   font-size: 36px;
   margin: 8px 0;
   color: #fefdfc;
 }
 
-.sugar-subtitle {
+.right-side p {
   font-family: 'Lora', serif;
   font-size: 55px;
   margin: 40px 0;
@@ -103,7 +107,28 @@ p {
   font-weight: normal;
   font-style: normal;
 }
+@media (max-width: 768px) {
+  .coming-soon-section {
+    flex-direction: column; /* Stack items vertically */
+    text-align: center; /* Center text */
+  }
 
+  .left-side, .right-side {
+    flex: 1; /* Equal width for stacked layout */
+  }
+
+  .coming-soon-text {
+    font-size: 48px; /* Slightly smaller text for smaller screens */
+  }
+
+  .right-side h2 {
+    font-size: 30px;
+  }
+
+  .right-side p {
+    font-size: 40px;
+  }
+}
 /* Why Waste A Craving section */
 .why-craving {
   text-align: center;
