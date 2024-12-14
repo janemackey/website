@@ -69,9 +69,8 @@ p {
 }
 
 .app-image {
-  /* max-width: 100%; 
-  max-width: 250px; */
-	max-width: 80%;
+  /* max-width: 100%; */
+  max-width: 250px; 
   height: auto;
   border-radius: 54px;
   margin-bottom: 0px;
