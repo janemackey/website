@@ -95,12 +95,19 @@ p {
   color: #fefdfc;
 }
 
-.right-side p {
-  font-family: 'Lora', serif;
+.right-side p:first-of-type {
   font-size: 40px;
+  font-family: 'Lora', serif;
   margin: 40px 0;
   color: #fefdfc;
 }
+
+/* Style for the paragraph below it */
+.right-side p:nth-of-type(2) {
+  font-size: 24px;
+  font-family: 'Lora', serif;
+  margin: 20px 0;
+  color: #fefdfc;
 
 @font-face {
   font-family: 'Drury Lane NF';
@@ -131,12 +138,20 @@ p {
     margin: 8px 0;
     color: #fefdfc;
   }
+.right-side p:first-of-type {
+  font-size: 40px;
+  font-family: 'Lora', serif;
+  margin: 40px 0;
+  color: #fefdfc;
+}
 
-  .right-side p {
-    font-size: 40px;
-    font-family: 'Lora', serif;
-    margin: 40px 0;
-    color: #fefdfc;
+/* Style for the paragraph below it */
+.right-side p:nth-of-type(2) {
+  font-size: 24px;
+  font-family: 'Lora', serif;
+  margin: 20px 0;
+  color: #fefdfc;
+  
   }
 }
 /* Why Waste A Craving section */
