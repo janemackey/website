@@ -75,6 +75,19 @@ p {
   border-radius: 36px;
   margin-bottom: 0px;
 }
+.tag-line p {
+  font-family: 'Lora', serif;
+  font-size: 40px;
+  margin: 40px 0;
+  color: #fefdfc;	
+}
+.app-description p {
+  font-family: 'Lora', serif;
+  font-size: 30px;
+  justify-content: center; 
+  margin: 40px 0;
+  color: #fefdfc;	
+}
 .logo-title {
 	display: flex;
 	align-items: flex-end; /* Align title with the bottom of the logo */
