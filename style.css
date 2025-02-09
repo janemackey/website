@@ -89,7 +89,7 @@ p {
 }
 
 .logo-title h2 {
-  font-family: 'Drury Lane NF', serif;
+  font-family: 'Drury Lane NF', serif !important;;
   font-size: 36px;
   margin: 8px 0;
   color: #fefdfc;
@@ -108,7 +108,7 @@ p {
   font-family: 'Lora', serif;
   margin: 20px 0;
   color: #fefdfc;
-
+}
 @font-face {
   font-family: 'Drury Lane NF';
   src: url('DruryLaneNF.ttf') format('truetype');
