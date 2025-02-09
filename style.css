@@ -89,7 +89,7 @@ p {
 }
 
 .logo-title h2 {
-  font-family: 'Drury Lane NF', serif !important;;
+  font-family: 'Drury Lane NF', serif !important;
   font-size: 36px;
   margin: 8px 0;
   color: #fefdfc;
@@ -116,6 +116,7 @@ p {
   font-style: normal;
 }
 @media (max-width: 768px) {
+	
   .coming-soon-section {
     flex-direction: column; /* Stack items vertically */
     text-align: center; /* Center text */
@@ -138,13 +139,12 @@ p {
     margin: 8px 0;
     color: #fefdfc;
   }
-.right-side p:first-of-type {
-  font-size: 40px;
-  font-family: 'Lora', serif;
-  margin: 40px 0;
-  color: #fefdfc;
-}
-
+  .right-side p:first-of-type {
+	  font-size: 40px;
+	  font-family: 'Lora', serif;
+	  margin: 40px 0;
+	  color: #fefdfc;
+  }
 /* Style for the paragraph below it */
 .right-side p:nth-of-type(2) {
   font-size: 24px;
