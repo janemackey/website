@@ -109,6 +109,12 @@ p {
   margin: 20px 0;
   color: #fefdfc;
 }
+.subtext {
+  font-size: 14px;
+  display: block;
+  margin-top: 5px;
+  color: #fefdfc;
+}
 @font-face {
   font-family: 'Drury Lane NF';
   src: url('DruryLaneNF.ttf') format('truetype');
