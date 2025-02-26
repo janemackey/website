@@ -214,6 +214,7 @@ p {
     height: auto;
     border-radius: 36px;
     margin: 10px 0;
+    border: 2px solid #444;
 }
 .feature-box p {
     font-size: 21px;
