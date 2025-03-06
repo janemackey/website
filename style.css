@@ -68,12 +68,16 @@ p {
   text-align: center;
 }
 .app-links {
-  margin-top: 20px;
+  margin-top: 30px; /* Adds space from the text above */
+  display: flex;
+  justify-content: center; /* Center horizontally */
+  gap: 15px; /* Space between badges */
+  flex-wrap: wrap; /* Ensures badges stay aligned on smaller screens */
 }
 
 .app-badge {
-  width: 150px; 
-  margin-right: 10px;
+  width: 150px;  /* Adjust the size if needed */
+  height: auto;
 }
 
 .app-image {
