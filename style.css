@@ -66,6 +66,9 @@ p {
 .text-side {
   flex: 3; /* 3/5 of the width */
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .app-links {
   margin-top: 30px; /* Adds space from the text above */
@@ -133,6 +136,8 @@ p {
   font-weight: normal;
   font-style: normal;
 }
+
+/* Mobile-friendly adjustments */
 @media (max-width: 768px) {
 	
   .coming-soon-section {
@@ -144,6 +149,11 @@ p {
     flex: 1; /* Equal width for stacked layout */
   }
 
+  .app-links {
+    flex-direction: column; /* Stack the buttons */
+    gap: 10px; /* Reduce space between badges */
+  }
+	
   .coming-soon-text {
     font-size: 48px; /* Slightly smaller text for smaller screens */
     font-family: 'Arial Black', sans-serif; /* Fallback for Horizon */
