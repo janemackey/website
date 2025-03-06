@@ -67,6 +67,14 @@ p {
   flex: 3; /* 3/5 of the width */
   text-align: center;
 }
+.app-links {
+  margin-top: 20px;
+}
+
+.app-badge {
+  width: 150px; 
+  margin-right: 10px;
+}
 
 .app-image {
   /* max-width: 100%; */
