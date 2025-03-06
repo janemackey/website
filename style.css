@@ -82,8 +82,7 @@ p {
 .app-badge {
   width: 150px;  /* Adjust the size if needed */
   height: auto;
-  display: flex;
-  aligh-items: center;
+  display: block;
 }
 
 .app-image {
