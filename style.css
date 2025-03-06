@@ -56,14 +56,14 @@ p {
   gap: 20px;
 }
 
-.left-side {
+.image-side {
   flex: 2; /* 2/5 of the width */
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.right-side {
+.text-side {
   flex: 3; /* 3/5 of the width */
   text-align: center;
 }
@@ -107,7 +107,7 @@ p {
   color: #fefdfc;
 }
 
-.right-side p:first-of-type {
+.text-side p:first-of-type {
   font-size: 40px;
   font-family: 'Lora', serif;
   margin: 40px 0;
@@ -115,7 +115,7 @@ p {
 }
 
 /* Style for the paragraph below it */
-.right-side p:nth-of-type(2) {
+.text-side p:nth-of-type(2) {
   font-size: 24px;
   font-family: 'Lora', serif;
   margin: 20px 0;
@@ -140,7 +140,7 @@ p {
     text-align: center; /* Center text */
   }
 
-  .left-side, .right-side {
+  .text-side, .image-side {
     flex: 1; /* Equal width for stacked layout */
   }
 
@@ -151,20 +151,20 @@ p {
     margin-bottom: 40px;
   }
 
-  .right-side h2 {
+  .text-side h2 {
     font-size: 30px;
     font-family: 'Drury Lane NF', serif;
     margin: 8px 0;
     color: #fefdfc;
   }
-  .right-side p:first-of-type {
+  .text-side p:first-of-type {
 	  font-size: 40px;
 	  font-family: 'Lora', serif;
 	  margin: 40px 0;
 	  color: #fefdfc;
   }
 /* Style for the paragraph below it */
-.right-side p:nth-of-type(2) {
+.text-side p:nth-of-type(2) {
   font-size: 24px;
   font-family: 'Lora', serif;
   margin: 20px 0;
